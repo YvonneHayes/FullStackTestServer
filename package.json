@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Server for the FullStack Test of CF401",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/YvonneHayes/FullStackTestServer/issues"
   },
-  "homepage": "https://github.com/YvonneHayes/FullStackTestServer#readme"
+  "homepage": "https://github.com/YvonneHayes/FullStackTestServer#readme",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.3"
+  }
 }
